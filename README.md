@@ -1,4 +1,5 @@
 # Excel Airtable Plugin
+## This is a custom script and will not work unless your file matches the fields in the code.
 
 ## Quick Start
 - To update `Trainee` && `Managers` tables
