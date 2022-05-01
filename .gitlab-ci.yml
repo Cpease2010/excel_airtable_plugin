@@ -1,0 +1,8 @@
+include:
+  - project: 'tmobile/templates'
+    file: '/gitlab-ci/.tmo.global.common.gitlab-ci.yml'
+
+stages:
+  - tmo
+  - test
+

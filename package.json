@@ -1,0 +1,39 @@
+{
+  "name": "excel_airtable_plugin",
+  "version": "1.0.0",
+  "description": "This simple application takes in an Excel Spreadsheet, searches of duplicate entries based on P# & updates an Airtable base accordingly. ",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc index.ts && node index.js",
+    "test": "mocha",
+    "prod": "tsc index.ts && NODE_ENV=prod node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cpease2010/excel_airtable_plugin.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "javascript",
+    "airtable",
+    "excel",
+    "microsoft",
+    "graph"
+  ],
+  "author": "Cory Pease",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cpease2010/excel_airtable_plugin/issues"
+  },
+  "homepage": "https://github.com/Cpease2010/excel_airtable_plugin#readme",
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "dotenv": "^10.0.0",
+    "exceljs": "^4.2.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "sinon": "^11.1.2"
+  }
+}
